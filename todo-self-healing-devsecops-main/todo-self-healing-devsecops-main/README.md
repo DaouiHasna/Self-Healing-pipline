@@ -74,15 +74,4 @@ python agent/main.py
 └── .env.example            # Environment variable template
 ```
 
-## Adding more files to fix
 
-Edit `JOB_FILE_MAP` in `agent/main.py`:
-
-```python
-JOB_FILE_MAP = {
-    "test-job":   "public/app.js",
-    "build-job":  "server.js",
-    "lint-job":   "public/app.js",
-    "default":    "public/app.js",
-}
-```
